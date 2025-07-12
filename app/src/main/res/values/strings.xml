@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Wheres\' My Petrol</string>
+    <string name="label_24_hours">24 Hours</string>
+    <string name="label_store">Store</string>
+    <string name="label_hot_food">Hot Food</string>
+    <string name="label_fuel_card">Fuel Card</string>
+    <string name="label_select_radius">Select radius</string>
+<!--    <string name="label_24_hours">"24 Hours"</string>-->
+<!--    <string name="label_24_hours">"24 Hours"</string>-->
+</resources>
