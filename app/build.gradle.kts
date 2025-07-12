@@ -15,6 +15,12 @@ android {
         versionCode = 1
         versionName = "0.0.1"
 
+        // WARNING: Ideally this key should never be shared anywhere,
+        // BUT for the sake of this example
+        // AND this being a non-production sample app
+        // HENCE sharing it here.
+        manifestPlaceholders["MAPS_API_KEY"] = "AIzaSyB1NO5NydafuCHAJZGjMADZ2fzpsnGC00w"
+
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
         vectorDrawables {
