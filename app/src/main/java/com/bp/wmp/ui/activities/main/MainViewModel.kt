@@ -87,7 +87,7 @@ class MainViewModel : ViewModel() {
         filter =
             when (key) {
                 KEY_24_HOURS -> filter.copy(isOpen24Hours = !filter.isOpen24Hours)
-                KEY_HOT_FOOD -> filter.copy(isOpen24Hours = !filter.hasHotFood)
+                KEY_HOT_FOOD -> filter.copy(hasHotFood = !filter.hasHotFood)
                 KEY_TOGGLE_STORE -> filter.copy(hasStore = !filter.hasStore)
                 KEY_FUEL_CARD -> filter.copy(acceptsBpFuelCard = !filter.acceptsBpFuelCard)
                 else -> filter
